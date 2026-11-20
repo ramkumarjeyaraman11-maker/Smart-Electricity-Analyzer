@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2ff;
+    color: #1e293b;
+}
+
+header {
+    background: linear-gradient(135deg, #0f172a, #0369a1);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 35px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+}
+
+h2 {
+    color: #075985;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 18px;
+    background: #0284c7;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #075985;
+}
+
+#result {
+    margin-top: 20px;
+    color: #047857;
+}
+
+#billHistory p {
+    padding: 12px;
+    margin: 8px 0;
+    background: #f1f5f9;
+    border-radius: 8px;
+}
+
+#comparisonResult {
+    line-height: 1.8;
+    white-space: pre-line;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+        padding: 0;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+}
